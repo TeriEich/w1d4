@@ -6,8 +6,8 @@ var input = [
 
 var result = input.map(function(value) {
   var square = 0;
-  for (input in value) {
-    square += Math.pow(value[input], 2);
+  for (num in value) {
+    square += Math.pow(value[num], 2);
   }
   return Math.sqrt(square);
 });
